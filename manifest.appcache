@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-# Time: Sun Oct 28 2012 12:05:50 GMT+0000 (GMT)
+# Time: Sun Oct 28 2012 14:42:04 GMT+0000 (GMT)
 # This manifest was created by confess.js, http://github.com/jamesgpearce/confess
 #
 # Retrieved URL: http://localhost:3501/
@@ -22,10 +22,6 @@ CACHE MANIFEST
 
 CACHE:
 /gifs/gif1.gif
-/gifs/gif2.gif
-/gifs/gif3.gif
-/gifs/gif4.gif
-/gifs/gif5.gif
 http://www.google-analytics.com/ga.js
 scripts/175c036b.scripts.js
 styles/df9865bf.main.css
