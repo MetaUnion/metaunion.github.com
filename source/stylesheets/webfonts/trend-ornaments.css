@@ -1,0 +1,26 @@
+/*
+Font: 		Trend
+Style: 		Ornaments
+URL: 		http://www.youworkforthem.com/product.php?sku=T4169
+Foundry: 	LatinoType
+Foundry: 	http://www.youworkforthem.com/designer/220/latinotype
+Copyright:	Copyright (c) 2012 by Daniel Hernandez & Paula nazal. All rights reserved.
+Version: 	1.1
+Created:	January 11, 2013
+License: 	http://www.youworkforthem.com/font-license 
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted 
+			from using the WebFonts(s) listed without a purchased license. 
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'Trend Ornaments';
+	src: url('/webfonts/trend-ornaments.eot');
+	src: url('/webfonts/trend-ornaments.eot?#iefix') format('embedded-opentype'),
+	     url('/webfonts/trend-ornaments.woff') format('woff'),
+	     url('/webfonts/trend-ornaments.ttf') format('truetype'),
+	     url('/webfonts/trend-ornaments.svg#ywftsvg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
