@@ -4,28 +4,27 @@ body_class: index
 ---
 
 .wrap
-  .ornament {j}
 
-  %h1 
-    %span.logo
-      %span.shadow Meta
-      %img{src: "/images/logo-icon@2.png", height: 64, class: "logo-icon"}
-      %span.shadow Union
-    .org-type Web consultancy
+  %header.masthead
+    .col.col1
+      %img{src: "/images/logo-icon@2.png", class: "logo-icon"}
 
-  %p Meta Union is a web development company run by Ad Taylor. Our main focus is providing front-end development consultancy to high-traffic clients but also offer full web site design and development. 
-  %p Full site coming soon!
+    .col.col2
+      %h1 
+        %span.logo
+          %span.shadow Meta
+          %span.shadow Union
 
-.ornament.bg-tl 8
-.ornament.bg-tr 9
-.ornament.bg-bl 7
-.ornament.bg-br 6
- 
+  %article{role: "main"}
+    .col.col1
+      %ul.contact-list
+        %li= mail_to("hello@metaunion.co.uk")
+        %li Faraday Wharf, Holt Street, Birmingham, B7 4BB
+        %li 0121 663 1801
+        %li= link_to("Twitter", "http://twitter.com/metaunion")
+        %li= link_to("Github", "http://github.com/metaunion")
 
+    .col.col2
+      %p= "Meta Union is a web development company run by #{link_to("Ad Taylor", "http://adtaylor.co.uk")}. Our main focus is providing front-end development consultancy to high-traffic clients but also offer full web site design and development."
+      %p Full site coming soon!
 
-
-%span{style: "height: 900px;display: block;"} &nbsp;  
-.ornament a b c d e f g h i j k l m n o p q r s t u v w x y z
-.ornament A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-.ornament 0 1 2 3 4 5 6 7 8 9 10
-.ornament . , ; : / ? " ' \ | ] } [ { + = - _ < > ~ ` ! @ £ $ % ^ & * ( ) §
