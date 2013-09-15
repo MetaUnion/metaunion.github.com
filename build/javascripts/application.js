@@ -1,0 +1,1 @@
+(function(){var e,t;e=function(e){return $(e).each(function(){var e,t;return e=$(this),t=$("<span class='shadow-text'>"+e.text()+"</span>").appendTo(e)})},t=function(e){var t,n,r;n=$(e),t=$(window),r=(t.height()-n.height())/2;if(r>1)return n.css({marginTop:r})},$(function(){if($(window).width()>699)return t(".wrap"),e(".shadow")})}).call(this);
